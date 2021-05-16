@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Gunhild",
+                "last": "Nereng"
+            },
+            "location": {
+                "street": {
+                    "number": 5809,
+                    "name": "Uelands gate"
+                },
+                "city": "Evenskjær",
+                "state": "Hedmark",
+                "country": "Norway",
+                "postcode": "9326",
+                "coordinates": {
+                    "latitude": "54.0583",
+                    "longitude": "59.0584"
+                },
+                "timezone": {
+                    "offset": "+7:00",
+                    "description": "Bangkok, Hanoi, Jakarta"
+                }
+            },
+            "email": "gunhild.nereng@example.com",
+            "login": {
+                "uuid": "597d9e24-d348-4f10-b95f-594d9d887fbd",
+                "username": "yellowfrog630",
+                "password": "field",
+                "salt": "nsG9fdCK",
+                "md5": "cb11e6e05815de8e08808694ce4e8f5e",
+                "sha1": "5d46fb49eb1f909716a69b7d62b429954004cdf4",
+                "sha256": "9fb2700dfe24c8b3558febb6fec08e690854ef57263724df6fbe6614997ed607"
+            },
+            "dob": {
+                "date": "1959-01-16T19:50:43.249Z",
+                "age": 62
+            },
+            "registered": {
+                "date": "2017-04-04T08:31:03.596Z",
+                "age": 4
+            },
+            "phone": "85549781",
+            "cell": "95187682",
+            "id": {
+                "name": "FN",
+                "value": "16015937495"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/59.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/59.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/59.jpg"
+            },
+            "nat": "NO"
+        }
+    ],
+    "info": {
+        "seed": "07b6ba8f810fbee4",
+        "results": 1,
+        "page": 1,
+        "version": "1.3"
+    }
+}

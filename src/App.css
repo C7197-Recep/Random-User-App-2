@@ -1,38 +1,213 @@
+html, body{
+  width: 100%;
+}
+body{
+  
+  background-image: linear-gradient(#fec861 400px,#f1f4f7 0);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*************************APP.JS***************************/
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin-top: 50px;
+  margin-bottom:100px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.header-img {
+  width: 100px;
+  margin: 30px;
+}
+
+.fetchers {
+  margin: 10px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fetchers button {
+  background-color: #9d4d8c;
+  border: none;
+  height: 25px;
+  width: 100px;
+  border-radius: 5%;
   color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  transition: all 0.5s ease;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.fetchers button:hover {
+  color: black;
+  background-color: #fec861;
+  transition: all 0.5s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.fetchers button:disabled {
+  color: black;
+  background-color: lightgray;
+}
+
+.frame{
+  max-width:500px;
+  width: 90%;
+  padding: 30px;
+  box-shadow: 3px 4px 20px -1px #6b6b6b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+    #f1f4f7 0,
+    #f1f4f7 98px,
+    #dadada 101px,
+    #fefefe 101px,
+    #fefefe 100%
+  );
+}
+
+.footer {
+  font-size: 22px;
+  margin-top: 40px;
+  width: 90%;
+  max-width:500px;
+  background-color: white;
+  border: 2px solid #9d4d8c;
+  text-align: center;
+  color: #9d4d8c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.footer img {
+  width: 40px;
+  margin : 10px;
+}
+
+.footer .contributer {
+  font-style: italic;
+  color: gray;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.loader{
+  display:hidden; 
+  position: fixed;
+  left: calc(50% - 60px);
+  top: calc(50vh - 60px);
+  z-index: 1032;
+  width: 120px;
+  height: 120px;
+}
+/**************************CARD.JS***************************/
+.card {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .picture {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 4px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 4px 20px -1px #6b6b6b;
+  margin-bottom: 30px;
+}
+
+.card .picture img {
+  width: 100%;
+  height: 100%;
+}
+
+.card .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #252424;
+}
+
+.card .buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.card .buttons img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  box-shadow: 3px 4px 20px -1px #6b6b6b;
+  border: 1px solid rgb(190, 185, 185);
+  cursor: pointer;
+}
+
+/*UFAK BIR YARDIM ALALIM: https://html-css-js.com/css/generator/box-shadow/*/
+.card .buttons img:hover {
+  box-shadow: -2px 1px 15px 10px rgba(0,0,0,0.83);
+  transition: all 0.5s ease;
+}
+
+/*CLICK EFEKTI VERELIM*/
+.card .buttons img:active {
+  width: 30px;
+  height: 30px;
+  transition: all 0.5s ease;
+}
+
+/*****************************TABLE.JS**************************/
+.users-table {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  font-size: 16px;
+}
+
+.table-header {
+  height: 30px;
+  background-color: #fec861;
+  color: #9d4d8c;
+}
+
+tr{
+  text-align: center;
+  height:20px;
+}
+
+td{
+  border: 2px solid rgba(218, 223, 225, 1);
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    font-size: 12px;
   }
 }
+
