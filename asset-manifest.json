@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Random-User-App-2/static/css/main.69f1ebbf.chunk.css",
-    "main.js": "/Random-User-App-2/static/js/main.b6c74e1c.chunk.js",
-    "main.js.map": "/Random-User-App-2/static/js/main.b6c74e1c.chunk.js.map",
-    "runtime-main.js": "/Random-User-App-2/static/js/runtime-main.6bc2019a.js",
-    "runtime-main.js.map": "/Random-User-App-2/static/js/runtime-main.6bc2019a.js.map",
-    "static/js/2.6c357986.chunk.js": "/Random-User-App-2/static/js/2.6c357986.chunk.js",
-    "static/js/2.6c357986.chunk.js.map": "/Random-User-App-2/static/js/2.6c357986.chunk.js.map",
-    "static/js/3.dcf9944f.chunk.js": "/Random-User-App-2/static/js/3.dcf9944f.chunk.js",
-    "static/js/3.dcf9944f.chunk.js.map": "/Random-User-App-2/static/js/3.dcf9944f.chunk.js.map",
+    "main.js": "/Random-User-App-2/static/js/main.1d616920.chunk.js",
+    "main.js.map": "/Random-User-App-2/static/js/main.1d616920.chunk.js.map",
+    "runtime-main.js": "/Random-User-App-2/static/js/runtime-main.eb173a66.js",
+    "runtime-main.js.map": "/Random-User-App-2/static/js/runtime-main.eb173a66.js.map",
+    "static/js/2.408738a1.chunk.js": "/Random-User-App-2/static/js/2.408738a1.chunk.js",
+    "static/js/2.408738a1.chunk.js.map": "/Random-User-App-2/static/js/2.408738a1.chunk.js.map",
+    "static/js/3.6963facb.chunk.js": "/Random-User-App-2/static/js/3.6963facb.chunk.js",
+    "static/js/3.6963facb.chunk.js.map": "/Random-User-App-2/static/js/3.6963facb.chunk.js.map",
     "index.html": "/Random-User-App-2/index.html",
     "static/css/main.69f1ebbf.chunk.css.map": "/Random-User-App-2/static/css/main.69f1ebbf.chunk.css.map",
-    "static/js/2.6c357986.chunk.js.LICENSE.txt": "/Random-User-App-2/static/js/2.6c357986.chunk.js.LICENSE.txt",
+    "static/js/2.408738a1.chunk.js.LICENSE.txt": "/Random-User-App-2/static/js/2.408738a1.chunk.js.LICENSE.txt",
     "static/media/cw.22310668.svg": "/Random-User-App-2/static/media/cw.22310668.svg",
     "static/media/design.9f215bce.svg": "/Random-User-App-2/static/media/design.9f215bce.svg",
     "static/media/growing-up-man.5024153b.svg": "/Random-User-App-2/static/media/growing-up-man.5024153b.svg",
@@ -23,9 +23,9 @@
     "static/media/phone.d017e1ae.svg": "/Random-User-App-2/static/media/phone.d017e1ae.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6bc2019a.js",
-    "static/js/2.6c357986.chunk.js",
+    "static/js/runtime-main.eb173a66.js",
+    "static/js/2.408738a1.chunk.js",
     "static/css/main.69f1ebbf.chunk.css",
-    "static/js/main.b6c74e1c.chunk.js"
+    "static/js/main.1d616920.chunk.js"
   ]
 }
