@@ -1,7 +1,7 @@
 {
   "name": "Random-User-App-2",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://c7197-recep.github.io/Random-User-App-2/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
